@@ -5,27 +5,25 @@
 	}
 }
 
-
 @media all and (max-width: 1200px) {
 	html {
 		background: yellow;
 	}
 
 	body {
-		font-size: 150%;
+		font-size: 200%;
 	}
 
 }
 
-
-@media all and (max-width: 1024px) {
+@media all and (max-width: 980px) {
 
 	html {
 		background: lightgreen;
 	}
 
 	body {
-		font-size: 200%;
+		font-size: 300%;
 	}
 }
 
