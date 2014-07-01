@@ -1,3 +1,21 @@
-html {
-	background: darkgrey;
+
+@media all {
+	html {
+		background: darkgrey;
+	}
 }
+
+
+@media all and (max-width: 1200px) {
+	html {
+		background: yellow;
+	}
+}
+
+
+@media all and (max-width: 1024px) {
+	html {
+		background: green;
+	}
+}
+
