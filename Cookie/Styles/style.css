@@ -10,12 +10,23 @@
 	html {
 		background: yellow;
 	}
+
+	body {
+		font-size: 150%;
+	}
+
 }
 
 
 @media all and (max-width: 1024px) {
+
 	html {
-		background: green;
+		background: lightgreen;
+	}
+
+	body {
+		font-size: 200%;
 	}
 }
 
+.main {width: 100%;}
